@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="vmM-Ji-EIY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="hJW-Ep-Yf8">
+                                        <rect key="frame" x="0.0" y="876" width="414" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Perfect Place To Live" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="QTo-az-Eya">
+                                        <rect key="frame" x="50" y="630" width="314" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="nibmlogo" image="nibm" translatesAutoresizingMaskIntoConstraints="NO" id="qao-rM-ulX">
+                                        <rect key="frame" x="50" y="94" width="314" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qao-rM-ulX" secondAttribute="height" multiplier="314:73" id="2Yy-bc-rHV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ssi-wC-hiN">
+                                        <rect key="frame" x="50" y="207" width="314" height="315"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Ssi-wC-hiN" secondAttribute="height" multiplier="314:315" id="V5q-Bj-DdI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nibmbroker" translatesAutoresizingMaskIntoConstraints="NO" id="3rm-kP-C0k">
+                                        <rect key="frame" x="40" y="532" width="324" height="68"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="3rm-kP-C0k" secondAttribute="height" multiplier="81:17" id="hKf-qw-jO3"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="NhM-bh-AKl"/>
+                                <color key="backgroundColor" name="Yellow"/>
+                                <constraints>
+                                    <constraint firstItem="Ssi-wC-hiN" firstAttribute="leading" secondItem="NhM-bh-AKl" secondAttribute="leading" constant="50" id="1ZA-7W-Eat"/>
+                                    <constraint firstItem="QTo-az-Eya" firstAttribute="top" secondItem="3rm-kP-C0k" secondAttribute="bottom" constant="30" id="1kz-D5-usN"/>
+                                    <constraint firstItem="NhM-bh-AKl" firstAttribute="trailing" secondItem="qao-rM-ulX" secondAttribute="trailing" constant="50" id="3Bj-d2-GxX"/>
+                                    <constraint firstItem="QTo-az-Eya" firstAttribute="leading" secondItem="NhM-bh-AKl" secondAttribute="leading" constant="50" id="A5b-6r-hdr"/>
+                                    <constraint firstItem="qao-rM-ulX" firstAttribute="leading" secondItem="NhM-bh-AKl" secondAttribute="leading" constant="50" id="AOL-TM-YdZ"/>
+                                    <constraint firstItem="hJW-Ep-Yf8" firstAttribute="leading" secondItem="NhM-bh-AKl" secondAttribute="leading" symbolic="YES" id="BFB-64-RLY"/>
+                                    <constraint firstItem="Ssi-wC-hiN" firstAttribute="top" secondItem="qao-rM-ulX" secondAttribute="bottom" constant="40" id="CUr-ik-8nq"/>
+                                    <constraint firstItem="3rm-kP-C0k" firstAttribute="leading" secondItem="NhM-bh-AKl" secondAttribute="leading" constant="40" id="F8g-n6-s1Z"/>
+                                    <constraint firstItem="qao-rM-ulX" firstAttribute="top" secondItem="NhM-bh-AKl" secondAttribute="top" constant="50" id="Fap-5V-S3h"/>
+                                    <constraint firstItem="NhM-bh-AKl" firstAttribute="centerX" secondItem="hJW-Ep-Yf8" secondAttribute="centerX" id="GXV-dF-UHT"/>
+                                    <constraint firstAttribute="trailing" secondItem="QTo-az-Eya" secondAttribute="trailing" constant="50" id="KTK-Hw-nTm"/>
+                                    <constraint firstAttribute="bottom" secondItem="hJW-Ep-Yf8" secondAttribute="bottom" constant="20" id="Q6q-7H-JeB"/>
+                                    <constraint firstItem="3rm-kP-C0k" firstAttribute="top" secondItem="Ssi-wC-hiN" secondAttribute="bottom" constant="10" id="TcM-B6-2c6"/>
+                                    <constraint firstItem="QTo-az-Eya" firstAttribute="centerX" secondItem="vmM-Ji-EIY" secondAttribute="centerX" id="TkR-1S-JbQ"/>
+                                    <constraint firstItem="Ssi-wC-hiN" firstAttribute="centerX" secondItem="vmM-Ji-EIY" secondAttribute="centerX" id="WA4-7Z-4OH"/>
+                                    <constraint firstItem="NhM-bh-AKl" firstAttribute="trailing" secondItem="Ssi-wC-hiN" secondAttribute="trailing" constant="50" id="WnH-C9-ETc"/>
+                                    <constraint firstItem="NhM-bh-AKl" firstAttribute="trailing" secondItem="3rm-kP-C0k" secondAttribute="trailing" constant="50" id="wWi-wV-ENO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgImage" width="307" height="315.5"/>
+        <image name="nibm" width="236" height="73"/>
+        <image name="nibmbroker" width="247.5" height="68.5"/>
+        <namedColor name="Yellow">
+            <color red="0.88700002431869507" green="0.76800000667572021" blue="0.25999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
