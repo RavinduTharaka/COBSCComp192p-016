@@ -28,6 +28,13 @@
 		990F933C280B31D20021830D /* ErrorMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F933B280B31D10021830D /* ErrorMessageModel.swift */; };
 		990F933F280B32410021830D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F933E280B32410021830D /* Home.swift */; };
 		990F9341280B35EA0021830D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990F9340280B35EA0021830D /* GoogleService-Info.plist */; };
+<<<<<<< HEAD
+=======
+		99936660280BB1DF003C859D /* LocationManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993665F280BB1DF003C859D /* LocationManagerHelper.swift */; };
+		99936662280BB1EC003C859D /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99936661280BB1EC003C859D /* RegisterModel.swift */; };
+		99936664280BB220003C859D /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99936663280BB220003C859D /* RegisterViewModel.swift */; };
+		99936666280BB256003C859D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99936665280BB255003C859D /* Extensions.swift */; };
+>>>>>>> 0f79072 (Second Commit)
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +77,13 @@
 		990F933E280B32410021830D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		990F9340280B35EA0021830D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		990F9342280B35FB0021830D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		9993665F280BB1DF003C859D /* LocationManagerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerHelper.swift; sourceTree = "<group>"; };
+		99936661280BB1EC003C859D /* RegisterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		99936663280BB220003C859D /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		99936665280BB255003C859D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+>>>>>>> 0f79072 (Second Commit)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +191,10 @@
 			isa = PBXGroup;
 			children = (
 				990F9327280B2E900021830D /* LoginViewModel.swift */,
+<<<<<<< HEAD
+=======
+				99936663280BB220003C859D /* RegisterViewModel.swift */,
+>>>>>>> 0f79072 (Second Commit)
 				990F9329280B2E970021830D /* ForgetPasswordViewModel.swift */,
 			);
 			path = ViewModel;
@@ -186,6 +204,10 @@
 			isa = PBXGroup;
 			children = (
 				990F932B280B2EA60021830D /* LoginModel.swift */,
+<<<<<<< HEAD
+=======
+				99936661280BB1EC003C859D /* RegisterModel.swift */,
+>>>>>>> 0f79072 (Second Commit)
 				990F933B280B31D10021830D /* ErrorMessageModel.swift */,
 			);
 			path = Model;
@@ -211,7 +233,13 @@
 		990F9338280B31990021830D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				990F9339280B31A40021830D /* FirebaseHelper.swift */,
+=======
+				99936665280BB255003C859D /* Extensions.swift */,
+				990F9339280B31A40021830D /* FirebaseHelper.swift */,
+				9993665F280BB1DF003C859D /* LocationManagerHelper.swift */,
+>>>>>>> 0f79072 (Second Commit)
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -366,11 +394,21 @@
 			files = (
 				990F9322280B2D970021830D /* Login.swift in Sources */,
 				990F932C280B2EA60021830D /* LoginModel.swift in Sources */,
+<<<<<<< HEAD
+=======
+				99936660280BB1DF003C859D /* LocationManagerHelper.swift in Sources */,
+				99936662280BB1EC003C859D /* RegisterModel.swift in Sources */,
+>>>>>>> 0f79072 (Second Commit)
 				990F9326280B2E720021830D /* ForgetPassword.swift in Sources */,
 				990F933F280B32410021830D /* Home.swift in Sources */,
 				990F92F7280B2C6E0021830D /* ContentView.swift in Sources */,
 				990F933A280B31A40021830D /* FirebaseHelper.swift in Sources */,
 				990F9328280B2E900021830D /* LoginViewModel.swift in Sources */,
+<<<<<<< HEAD
+=======
+				99936664280BB220003C859D /* RegisterViewModel.swift in Sources */,
+				99936666280BB256003C859D /* Extensions.swift in Sources */,
+>>>>>>> 0f79072 (Second Commit)
 				990F932A280B2E970021830D /* ForgetPasswordViewModel.swift in Sources */,
 				990F92F5280B2C6E0021830D /* COBSCComp192p_016App.swift in Sources */,
 				990F933C280B31D20021830D /* ErrorMessageModel.swift in Sources */,
